@@ -1,0 +1,2077 @@
+body{
+    background-color: rgb(248, 242, 248);
+}
+*{
+    margin: 0px;
+}
+#thinpac{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(248, 242, 248);
+}
+#thin{
+    width: 80%;
+    height: 30px;
+    
+    margin: auto;
+    display: flex;
+}
+#thin div{
+    height: 100%;
+    width: 50%;
+}
+#sellju{
+    display: flex;
+}
+#sellju div{
+    height: 100%;
+    width: 50%;
+}
+#sell{
+    
+    
+    align-content: center;
+}
+#sell p:hover{
+    text-decoration: underline;
+}
+#sell img{
+    position: relative;
+    top: 2px;
+    float: left;
+    height: 2vh;
+    width: 2vh;
+}
+#ju{
+    align-content: center;
+   
+}
+#ju img{
+    float: right;
+    width: 10vh;
+    height: 1.5vh;
+}
+#pay p{
+    font-size: 13px;
+    margin-left: 10px;
+    color: rgb(175, 173, 173);
+}
+#pay p:hover{
+    color: blue;
+}
+#pay{
+    align-content: center;
+}
+#pay a{
+    text-decoration: none;
+}
+#navbar{
+    top: 0px;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 1px 0px 1px rgb(230, 229, 229);
+}
+#nav{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+#menu{
+    display: none;
+    height: 100%;
+    width: 5%;
+    background-color: white;
+}
+#nav img{
+    height: 50%;
+    width: 150px;
+}
+#full{
+    margin-left: 4%;
+    display: flex;
+    height: 50%;
+    width: 40%;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 5px;
+    background-color: white;
+}
+#mag{
+    background-color: white;
+    height: 100%;
+    width: 10%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#full input{
+    border: none;
+    font-size: 15px;
+    width: 90%;
+    height: 95%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#full input:focus{
+    outline: none;
+}
+#Search{
+    margin-left: 1%;
+    border: none;
+    height: 50%;
+    width: 7%;
+    background-color: orange;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+    color: white;
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#Search:hover{
+    background-color: rgb(241, 163, 16);
+}
+#dropdown1{
+    margin-left: 4%;
+    height: 50%;
+    width: 8%;
+    border: none;
+    border-radius: 5px;
+}
+#acc{
+    background-color: white;
+    border: 5px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+#acc:hover{
+    color: orange;
+}
+#at{
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 10%;
+}
+#drop1{
+    display: none;
+    z-index: 2;
+    background-color: white;
+    width: 200%;
+    height: 500%;
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#sig{
+    width: 100%;
+    height: 40%;
+    border-bottom: 1px solid rgb(218, 215, 215);
+    align-content: center;
+    text-align: center;
+}
+#sign{
+    
+    border: none;
+    height: 50%;
+    width: 85%;
+    background-color: orange;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+    color: white;
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#sign:hover{
+    background-color: rgb(241, 163, 16);
+}
+#los{
+    
+    height: 60%;
+    width: 100%;
+}
+#los button{
+    background-color: white;
+    border: none;
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    align-items: center;
+}
+#los button:hover{
+    background-color: rgb(223, 223, 223);
+}
+#los button:hover p{
+    font-size: 14px;
+}
+#los p{
+    font-size: 13px;
+    margin-left: 10%;
+    color: rgb(105, 103, 103);
+}
+#los i{
+    font-size: 19px;
+    margin-left: 5%;
+}
+#dropdown1:hover #drop1{
+    display: block;
+}
+#dropdown2{
+    margin-left: 3%;
+    height: 50%;
+    width: 8%;
+    border: none;
+    border-radius: 5px;
+}   
+#hel{
+    background-color: white;
+    display: flex;
+    border: 5px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    border: none;
+   
+}
+#hel:hover{
+    color: orange;
+}
+#help{
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 10%;
+}
+#drop2{
+    display: none;
+    z-index: 2;
+    background-color: white;
+    width: 200%;
+    height: 800%;
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#lie{
+    width: 100%;
+    height: 75%;
+   
+}
+#lip{
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#lip li{
+    align-content: center;
+    list-style-type: none;
+    height: 16.7%;
+   padding-left: 5%;
+    
+}
+#lip a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(105, 103, 103);
+}
+#lip a:hover{
+    font-size: 14px;
+}
+#lip li:last-child{
+    border-bottom: 1px solid rgb(218, 215, 215);
+}
+#lip li:hover{
+    background-color: rgb(223, 223, 223);
+    
+}
+#live{
+    text-align: center;
+    align-content: center;
+    height: 25%;
+    width: 100%;
+    
+}
+#live button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 50%;
+    width: 85%;
+    background-color: orange;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#live button p{
+    margin-left: 5%;
+}
+#live button:hover{
+    background-color: rgb(241, 163, 16);
+}
+#dropdown2:hover #drop2{
+    display: block;
+}
+#cart{
+    margin-left: 3%;
+    align-content: center;
+    height: 50%;
+    width: 6%;
+   
+}
+#cart a{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+#cart a:hover{
+    color: orange;
+}
+#cart p{
+    margin-left: 10%;
+    float: right;
+    
+}
+#cat{
+    display: none;
+    height: 100%;
+    width: 5%;
+}
+#cat i{
+    color: black;
+    
+    font-size: 15px;
+}
+#use{
+    display: none;
+    height: 100%;
+    width: 5%;
+}
+#use i{
+    color: black;
+    
+    font-size: 18px;
+}
+#nav2{
+    display: none;
+}
+#full2{
+    
+    display: flex;
+    height: 30%;
+    align-items: center;
+    margin: auto;
+    width: 98%;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 50px;
+   
+}
+#mag2{
+    
+    /* float: left; */
+    height: 100%;
+    width: 5%;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+}
+#full2 input{
+    /* float: left; */
+    border: none;
+    font-size: 15px;
+    width: 95%;
+    height: 93%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#full2 input:focus{
+    outline: none;
+}
+#call{
+    display: none;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(184, 184, 253);
+}
+#call a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.front{
+    display: none;
+    /* height: 280px; */
+    width: 80%;
+    margin: auto;
+    /* margin-top: 15px; */
+    overflow-x: auto;
+    display: flex;
+}
+.front::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.front div{
+    display: none;
+    min-width: 70%;
+    margin-left: 2%;
+    height: 97%;
+    margin-top: 0.6%;
+}
+.front img{
+    width: 100%;
+    height: 100%;
+}
+#first{
+    
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    
+    margin-top: 15px;
+    display: flex;
+}
+#list{
+    
+    padding: 0px;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+#shits{
+    padding-left: 7%;
+    height: 100%;
+    width: 100%;
+}
+#shits li{
+   
+    list-style-type: none;
+    padding: 0px;
+    height: 8.3%;
+    width: 100%;
+    align-content: center;
+    
+}
+#shits a{
+    
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 11px;
+}
+#shits a:hover{
+    color: orange;
+}
+#shits p{
+    margin-left: 3%;
+}
+#shits i{
+    font-size: 13px;
+}
+#bigone{
+    margin-left: 1%;
+    height: 100%;
+    width: 58%;
+    
+    
+}
+#bigone img{
+   height: 100%;
+   width: 100%; 
+}
+#split{
+    margin-left: 1%;
+    height: 100%;
+    width: 20%;
+   
+}
+#head{
+    padding: 0%;
+    height: 48%;
+    width: 100%;
+    background-color: white;
+}
+#custom{
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+#custom a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+}
+#custom li{
+    list-style-type: none;
+    padding-left: 7%;
+    height: 33.3%;
+    width: 100%;
+    align-content: center;
+}
+#custom img{
+   
+    
+        width: 20%;
+   
+}
+#custom p{
+    margin-left: 4%;
+    
+    align-content: center;
+}
+#buttom{
+    height: 48%;
+    width: 100%;
+    
+    margin-top: 8%;
+}
+#buttom img{
+    height: 100%;
+    width: 100%;
+}
+.second{
+    background-color: white;
+    height: 220px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    margin-top: 15px;
+    padding-left: 0.2%;
+    padding-right: 0.2%;
+}
+.second div{
+    float: left;
+    height: 90%;
+    width: 16%;
+   
+    margin-left: 0.6%;
+    font-size: 13px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+.new img{
+    width: 100%;
+    height: 87%;
+}
+.new a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.second div:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#flashsale{
+    
+    height: 315px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border-radius: 2px;
+}
+#fst{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+   background-color: red;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    
+}
+#batch1{
+    display: flex;
+    height: 100%;
+    width: 60%;
+   
+    
+}
+
+#batch1 div{
+    align-content: center;
+    height: 100%;
+    width: 50%;
+    
+}
+#fish{
+    align-content: center;
+    font-weight: bold;
+    margin-left: 3%;
+    font-size: 18px;
+    color: white;
+}
+#batch1 i{
+    color: yellow;
+    font-size: 20px;
+    margin-left: 4%;
+}
+#time{
+    text-align: center;
+    color: white;
+}
+#batch2{
+    width: 40%;
+    height: 100%;
+    text-align: right;
+    align-content: center;
+}
+#product{
+   overflow-x: auto;
+    display: flex;
+    width: 100%;
+    height: 87%;
+    
+    
+}
+#product::-webkit-scrollbar{
+    width: 0%;
+    height: 0%;
+}
+#product img{
+    width: 100%;
+    height: 60%;
+}
+
+.pro{
+    margin-top: 0.7%;
+   
+    height: 94%;
+    min-width: 16%;
+    
+    
+    margin-left: 0.6%;
+    background-color:white;
+    
+    transition: all 0.2s ease-in-out;
+}
+.pro:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+.pro a{
+    color: black;
+    text-decoration: none;
+}
+#three{
+    background-color: white;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    
+}
+#three div{
+    min-width: 32.5%;
+    height: 95%;
+    margin-left: 0.6%;
+    transition: all 0.2s ease-in-out;
+}
+#three div:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#three img{
+    width: 100%;
+    height: 100%;
+}
+#two{
+    background-color: white;
+    height: 220px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    
+}
+#two div{
+    width: 49.3%;
+    height: 95%;
+    margin-left: 0.6%;
+    transition: all 0.2s ease-in-out;
+}
+#two div:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#two img{
+    width: 100%;
+    height: 100%;
+}
+#limited{
+    height: 330px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#ls{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(206, 176, 181);
+}
+#stock{
+    font-weight: 500;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    padding-left: 1%;
+}
+#deals{
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    text-align: right;
+    padding-right: 1%;
+}
+#prod{
+    overflow-x: auto;
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+.prd{
+    margin-top: 0.7%;
+   
+    height: 91%;
+    min-width: 16%;
+    
+    
+    margin-left: 0.6%;
+    background-color:white;
+    
+    transition: all 0.2s ease-in-out;
+}
+.prd:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#prod img{
+    width: 100%;
+    height: 70%;
+}
+#prod::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.prd a{
+    color: black;
+    text-decoration: none;
+}
+#decorate{
+    height: 250px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#deco{
+    font-weight: 500;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(206, 176, 181);
+}
+#rate{
+    
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+#rate div{
+    margin-top: 0.7%;
+   
+    height: 91%;
+    width: 32.5%;
+    margin-left: 0.6%;
+    transition: all 0.2s ease-in-out;
+}
+#rate div:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#rate img{
+    width: 100%;
+    height: 100%;
+}
+#Phone{
+    height: 250px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#phode{
+    font-weight: 500;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(206, 176, 181);
+}
+#pho{
+    
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+#pho div{
+    margin-top: 0.7%;
+   
+    height: 91%;
+    width: 32.5%;
+    margin-left: 0.6%;
+    transition: all 0.2s ease-in-out;
+}
+#pho div:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#pho img{
+    width: 100%;
+    height: 100%;
+}
+#supersales{
+    height: 330px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#supersee{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(206, 176, 181);
+}
+#super{
+    font-weight: 500;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    padding-left: 1%;
+}
+#su{
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    text-align: right;
+    padding-right: 1%;
+}
+#sup{
+    overflow-x: auto;
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+.sr{
+    margin-top: 0.7%;
+   
+    height: 91%;
+    min-width: 16%;
+    
+    
+    margin-left: 0.6%;
+    background-color:white;
+    
+    transition: all 0.2s ease-in-out;
+}
+.sr:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#sup img{
+    width: 100%;
+    height: 70%;
+}
+#sup::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.sr a{
+    color: black;
+    text-decoration: none;
+}
+#twoagain{
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    padding: 0.3%;
+}
+#twoagain div{
+    width: 48.8%;
+    height: 95%;
+    margin-left: 0.6%;
+    transition: all 0.2s ease-in-out;
+}
+#twoagain div:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#twoagain img{
+    width: 100%;
+    height: 100%;
+}
+#bestsellers{
+    height: 330px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#bestsee{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(206, 176, 181);
+}
+#bestsell{
+    font-weight: 500;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    padding-left: 1%;
+}
+#be{
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    text-align: right;
+    padding-right: 1%;
+}
+#bes{
+    overflow-x: auto;
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+.bt{
+    margin-top: 0.7%;
+   
+    height: 91%;
+    min-width: 16%;
+    
+    
+    margin-left: 0.6%;
+    background-color:white;
+    
+    transition: all 0.2s ease-in-out;
+}
+.bt:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#bes img{
+    width: 100%;
+    height: 70%;
+}
+#bes::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.bt a{
+    color: black;
+    text-decoration: none;
+}
+#officialstore{
+    height: 460px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#official{
+    font-weight: 500;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    font-size: 22px;
+    background-color: rgb(240, 178, 119);
+}
+#off{
+    padding-left: 0.2%;
+    width: 100%;
+    height: 88%;
+}
+.stor{
+    margin-left: 0.6%;
+    margin-top: 0.7%;
+    float: left;
+    width: 16%;
+    height: 48%;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.stor:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+.stor img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#Bacardistore{
+    height: 330px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#bacoff{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(240, 178, 119);
+}
+#bacardi{
+    font-weight: 500;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    padding-left: 1%;
+}
+#bacar{
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    text-align: right;
+    padding-right: 1%;
+}
+#bac{
+    overflow-x: auto;
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+.bcr{
+    margin-top: 0.7%;
+   
+    height: 91%;
+    min-width: 16%;
+    
+    
+    margin-left: 0.6%;
+    background-color:white;
+    
+    transition: all 0.2s ease-in-out;
+}
+.bcr:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#bac img{
+    width: 100%;
+    height: 70%;
+}
+#bac::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.bcr a{
+    color: black;
+    text-decoration: none;
+}
+#drinkdelight{
+    height: 330px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#drinks{
+    font-weight: 500;
+    font-size: 21px;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(206, 176, 181);
+}
+#delight{
+    
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+#delight div{
+    margin-top: 0.6%;
+   
+    height: 94%;
+    width: 32.5%;
+    margin-left: 0.6%;
+    transition: all 0.2s ease-in-out;
+}
+#delight div:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#delight img{
+    width: 100%;
+    height: 100%;
+}
+#delightdrink{
+    height: 330px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#delightsee{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(206, 176, 181);
+}
+#deldril{
+    font-weight: 500;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    padding-left: 1%;
+}
+#de{
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    text-align: right;
+    padding-right: 1%;
+}
+#del{
+    overflow-x: auto;
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+.dt{
+    margin-top: 0.7%;
+   
+    height: 91%;
+    min-width: 16%;
+    
+    
+    margin-left: 0.6%;
+    background-color:white;
+    
+    transition: all 0.2s ease-in-out;
+}
+.dt:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px rgb(218, 216, 216);
+}
+#del img{
+    width: 100%;
+    height: 70%;
+}
+#del::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.dt a{
+    color: black;
+    text-decoration: none;
+}
+#rubbish{
+    height: fit-content;
+    padding-bottom: 2%;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+#rubbish h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+#rubbish p{
+    font-size: 11px;
+    margin-top: 15px;
+}
+#rubbish a{
+    color: black;
+    font-size: 11px;
+    text-decoration: underline;
+}
+#rubbish h2{
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+#footer{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+    align-content: center;
+}
+#foot{
+    display: flex;
+    width: 80%;
+    height: 90%;
+    
+    margin: auto;
+}
+
+#jum{
+    width: 25%;
+    height: 100%;
+    
+    
+}
+#jum img{
+    height:80%;
+    width: 80%;
+}
+#stress{
+    
+    width: 50%;
+    height: 100%;
+}
+#stress h2{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+#stress p{
+    font-size: 12px;
+    color: white;
+    margin-top: 1%;
+}
+#app{
+    width: 25%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    
+}
+#log{
+    
+    height: 22%;
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+#init{
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    border-radius: 5px;
+}
+#init button{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    width: 10%;
+    border: none;
+    background-color: white;
+}
+#init input{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 96%;
+    width: 90%;
+    border: none;
+}
+#init input:focus{
+    outline: none;
+}
+#init:hover{
+    border: 1px solid orange;
+}
+#male{
+    background-color: black;
+    border: 1px solid white;
+    height: 100%;
+    width: 15%;
+    margin-left: 1%;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+}
+#female{
+    background-color: black;
+    border: 1px solid white;
+    height: 100%;
+    width: 20%;
+    margin-left: 1%;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+}
+#log button:hover{
+    border-color: orange;
+    color: orange;
+}
+#log button:focus{
+    border-color: orange;
+    color: orange;
+}
+#agree{
+    margin-top: 3%;
+    width: 100%;
+    height: 15%;
+    align-content: center;
+    display: flex;
+}
+#agree input{
+    height: 50%;
+    width: 5%;
+    margin-top: 1%;
+}
+#agree p{
+    font-size: 12px;
+    color: rgb(216, 212, 212);
+}
+#stress a{
+    color: orange;
+    text-decoration: none;
+    font-size: 12px;
+}
+#stress a:hover{
+    text-decoration: underline;
+}
+#text{
+    display: flex;
+    height: 25%;
+    
+    width: 100%;
+    border-radius: 5px;
+}
+#fim{
+    height: 100%;
+    width: 20%;
+    border-radius: 5px;
+}
+#fim img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#ds{
+    align-content: space-around;
+}
+#d1{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+#d2{
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+}
+#thetwo{
+    display: flex;
+    height: 20%;
+    
+    width: 100%;
+    border-radius: 5px;
+   
+    margin-top: 2%;
+}
+#appstore{
+    background-color:black;
+    border: none;
+    width: 40%;
+    height: 100%;
+    
+    display: flex;
+}
+#apple{
+    width: 30%;
+    height: 100%;
+    
+    align-content: center;
+    text-align: center;
+}
+#appledown{
+    width: 70%;
+    height: 100%;
+    align-content: center;
+}
+#appledown p{
+    color: white;
+    font-size: 8px;
+}
+#playstore{
+    background-color: black;
+    border: none;
+    width: 40%;
+    height: 100%;
+    
+    display: flex;
+    margin-left: 4%;
+}
+#play{
+    width: 30%;
+    height: 100%;
+    
+    align-content: center;
+    text-align: center;
+}
+#playdown{
+    width: 70%;
+    height: 100%;
+    align-content: center;
+}
+#playdown p{
+    color: white;
+    font-size: 8px;
+}
+#footer2{
+    padding-top: 3%;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(82, 80, 80);
+}
+#links{
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    
+    display: flex;
+}
+
+#link1{
+    height: 100%;
+    width: 25%;
+    
+}
+#footer2 h1{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+#links a{
+    text-decoration: none;
+    color: rgb(197, 196, 196);
+    font-size: 12px;
+}
+#links a:hover{
+    text-decoration: underline;
+}
+.fist{
+    
+   height: fit-content;
+   
+   width: 100%;
+}
+#links ul{
+    height: 100%;
+    padding: 0px;
+}
+#links li{
+    height: 21px;
+    list-style-type: none;
+    padding: 0px;
+}
+#link2{
+    
+    height: 100%;
+    width: 25%;
+}
+#link3{
+    
+    height: 100%;
+    width: 25%;
+}
+#fist1{
+    width: 50%;
+    height: fit-content;
+}
+#fist2{
+    width: 50%;
+    height: fit-content;
+}
+#icons{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgb(165, 164, 164);
+    display: flex;
+}
+#join{
+    width: 30%;
+    height: 100%;
+    align-content: center;
+    
+}
+#icons a{
+    color: white;
+    font-size: 22px;
+    margin-left: 5%;
+}
+#icons a:hover{
+    color: orange;
+}
+#paym{
+    width: 70%;
+    height: 100%;
+    align-content: center;
+}
+#flay{
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    
+}
+#flay a{
+    text-decoration: none;
+    font-size: 13px;
+    
+    color: rgb(175, 173, 173);
+}
+#flay a:hover{
+    color: white;
+}
+#footer3{
+    display: none;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    padding-top:0.2%;
+}
+#linkhold{
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    
+    border-bottom:  1px solid rgb(165, 164, 164);
+}
+#linkhold a{
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+
+}
+#lastajeh{
+    height: 30px;
+    width: 80%;
+    text-align: center;
+    align-content: center;
+    color: rgb(184, 183, 183);
+    font-size: 14px;
+}
+#linkhold div{
+    margin-left: 3%;
+    margin-top: 1%;
+}
+@media screen and (max-width: 850px) {
+    #thinpac{
+        display: none;
+    }
+    #nav{
+        height: 50%;
+        width: 98%;
+        display: block;
+        
+    }
+    #nav2{
+        display: block;
+        
+        height: 50%;
+        align-content: center;
+    }
+    #full2{
+        height: 70%;
+        align-content: center;
+    }
+    #full2 input{
+        height: 95%;
+    }
+    #menu{
+        float: left;
+        background-color: white;
+        border: none;
+        display: block;
+    }
+    #nav img{
+        margin-top: 0.5%;
+        float: left;
+        height: 100%;
+        width: 150px;
+    }
+    #full{
+        display: none;
+    }
+    #Search{
+        display: none;
+    }
+    #dropdown1{
+        display: none;
+    }
+    #dropdown2{
+        display: none;
+    }
+    #cart{
+        display: none;
+    }
+    #use{
+        display: block;
+        background-color: white;
+        border: none;
+        float: right;
+    }
+    #cat{
+        margin-right: 2%;
+        border: none;
+        background-color: white;
+        display: block;
+        float: right;
+    }
+    #first{
+        display: none;
+    }
+    .front{
+        width: 90%;
+        height: 230px;
+        margin-top: 15px;
+    }
+    .front div{
+        min-width: 100%;
+        display: block;
+    }
+    .second{
+        height: 180px;
+        width: 90%;
+        overflow: hidden;
+        display: flex;
+        align-content: center;
+    }
+    .new{
+        min-width: 24.29%;
+        margin-top: 1.5%;
+    }
+    #flashsale{
+        width: 90%;
+    }
+    #batch1{
+        justify-content: left;
+        display: block;
+    }
+    #fish{
+        font-size: 17px;
+    }
+    #batch1 div{
+        height: 50%;
+        width: 100%;
+    }
+    #batch1 i{
+        font-size: 15spx;
+    }
+    #time{
+        font-size: 17px;
+        text-align: left;
+        
+        padding-left: 3%;
+    }
+    .pro{
+        min-width: 25%;
+    }
+    #three{
+        width: 90%;
+        height: 170px;
+    }
+    #two{
+        width: 90%;
+        height: 190px;
+    }
+    #limited{
+        width: 90%;
+    }
+    .prd{
+        min-width: 25%;
+    }
+    #decorate{
+        width: 90%;
+        height: 200px;
+    }
+    #Phone{
+        width: 90%;
+        height: 200px;
+    }
+    #supersales{
+        width: 90%;
+        height: 300px;
+    }
+    .sr{
+        min-width: 25%;
+    }
+    #twoagain{
+        width: 90%;
+        height: 190px;
+    }
+    #bestsellers{
+        width: 90%;
+        height: 300px;
+    }
+    .bt{
+        min-width: 25%;
+    }
+    #officialstore{
+        width: 90%;
+        overflow: hidden;
+    }
+    .stor{
+        width: 24%;
+        height: 49.5%;
+    }
+    #Bacardistore{
+        width: 90%;
+        height: 300px;
+    }
+    .bcr{
+        min-width: 25%;
+    }
+    #drinkdelight{
+        width: 90%;
+        height: 200px;
+    }
+    #delightdrink{
+        width: 90%;
+        height: 300px;
+    }
+    .dt{
+        min-width: 25%;
+    }
+    #jum{
+        display: none;
+    }
+    #stress{
+        width: 60%;
+    }
+    #app{
+        width: 40%;
+    }
+    #link4{
+        display: none;
+    }
+    #link1{
+        width: 32%;
+    }
+    #link2{
+        width: 32%;
+    }
+    #link3{
+        width: 32%;
+    }
+    #call{
+        display: block;
+        font-size: 13px;
+    }
+    #rubbish{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .front{
+        width: 100%;
+        height: 150px;
+        margin-top: 15px;
+    }
+    #nav img{
+        height: 80%;
+        margin-top: 2%;
+        width: 150px;
+        margin-left: 8%;
+    }
+    .front div{
+        min-width: 100%;
+        display: block;
+    }
+    #full2{
+        width: 93%;
+    }
+    #mag2{
+        width: 10%;
+    }
+    #full2 input{
+        width: 90%;
+    }
+    #use{
+        margin-right: 5%;
+    }
+    #cat{
+        margin-right: 5%;
+    }
+    .second{
+        height: 160px;
+        width: 95%;
+        overflow-x: hidden;
+        display: flex;
+        align-content: center;
+    }
+    .new{
+        
+        min-width: 32%;
+        margin-top: 1.5%;
+        
+    }
+    .second div{
+        margin-left: 1.1%;
+    }
+    .new a{
+        font-size: 13px;
+    }
+    #flashsale{
+        width: 100%;
+    }
+    #batch1{
+        justify-content: left;
+        display: block;
+    }
+    #fish{
+        font-size: 14px;
+    }
+    #batch1 div{
+        height: 50%;
+        width: 100%;
+    }
+    #batch1 i{
+        font-size: 15px;
+    }
+    #time{
+        font-size: 15px;
+        text-align: left;
+        
+        padding-left: 3%;
+    }
+    .pro{
+        min-width: 45%;
+    }
+    #three{
+        overflow-x: scroll;
+        width: 100%;
+        height: 170px;
+    }
+    #three::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    #three div{
+        
+        min-width: 98%;
+        height: 93%;
+        margin-left: 2%;
+        
+    }
+    #two{
+        width: 100%;
+        height: 190px;
+        overflow-x: auto;
+    }
+    #two::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    #two div{
+          min-width: 98%;
+        height: 93%;
+        margin-left: 2%;
+    }
+    #limited{
+        width: 100%;
+    }
+    #stock{
+        font-size: 19px;
+    }
+    .prd{
+        min-width: 45%;
+    }
+    #decorate{
+        width: 100%;
+        height: 200px;
+        
+    }
+    #rate{
+        overflow-x: auto;
+    }
+    #rate::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    #rate div{
+        min-width: 98%;
+        margin-left: 2%;
+    }
+    #Phone{
+        width: 100%;
+        height: 200px;
+    }
+    #pho{
+        overflow-x: auto;
+    }
+    #pho::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    #pho div{
+        min-width: 98%;
+        margin-left: 2%;
+    }
+    #supersales{
+        width: 100%;
+        height: 300px;
+    }
+    .sr{
+        min-width: 45%;
+    }
+    #twoagain{
+        width: 100%;
+        height: 190px;
+        overflow-x: auto;
+    }
+    #twoagain::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    #twoagain div{
+          min-width: 98%;
+        height: 93%;
+        margin-left: 2%;
+    }
+    #bestsellers{
+        width: 100%;
+        height: 300px;
+    }
+    .bt{
+        min-width: 45%;
+    }
+    #officialstore{
+        width: 100%;
+        overflow: hidden;
+    }
+    .stor{
+        width: 49%;
+        height: 49.5%;
+        margin-top: 2%;
+    }
+    #Bacardistore{
+        width: 100%;
+        height: 300px;
+    }
+    .bcr{
+        min-width: 45%;
+    }
+    #drinkdelight{
+        width: 100%;
+        height: 200px;
+    }
+    #delight{
+        overflow-x: auto;
+    }
+    
+    #delight::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    #delight div{
+        min-width: 98%;
+        margin-left: 2%;
+    }
+    #delightdrink{
+        width: 100%;
+        height: 300px;
+    }
+    .dt{
+        min-width: 45%;
+    }
+    #rubbish{
+        width: 100%;
+    }
+    #footer, #footer2{
+        display: none;
+    }
+    #footer3{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    #dropdown2{
+        display: none;
+    }
+    #cart{
+        margin-left: 10%;
+    }
+    #Search{
+        font-size: 11px;
+    }
+    .second{
+        height: 190px;
+        width: 80%;
+        overflow-x: hidden;
+        display: flex;
+        align-content: center;
+    }
+    .new{
+        min-width: 19.35%;
+        margin-top: 1.5%;
+    }
+    .pro{
+        min-width: 20%;
+    }
+    .prd{
+        min-width: 20%;
+    }
+    .sr{
+        min-width: 20%;
+    }
+    .bt{
+        min-width: 20%;
+    }
+    .bcr{
+        min-width: 20%;
+    }
+    .dt{
+        min-width: 20%;
+    }
+    #jum{
+        display: none;
+    }
+    #stress{
+        width: 60%;
+    }
+    #app{
+        width: 40%;
+    }
+    #link4{
+        display: none;
+    }
+    #link1{
+        width: 32%;
+    }
+    #link2{
+        width: 32%;
+    }
+    #link3{
+        width: 32%;
+    }
+}
+@media screen and (max-width: 1000px){
+    #cart{
+        display: none;
+    }
+    #cat{
+        margin-left: 13%;
+        border: none;
+        background-color: white;
+        display: block;
+        
+    }
+}
