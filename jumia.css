@@ -1778,7 +1778,7 @@ body{
         width: 90%;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
     .front{
         overflow-y: hidden;
         width: 100%;
@@ -1812,7 +1812,7 @@ body{
     }
     .second{
         height: 160px;
-        width: 98%;
+        min-width: 98%;
         overflow: hidden;
         display: flex;
         align-content: center;
@@ -1990,7 +1990,7 @@ body{
         min-width: 45%;
     }
     #rubbish{
-        width: 100%;
+        width: 98%;
     }
     #footer, #footer2{
         display: none;
